@@ -1,0 +1,31 @@
+<p-button label="Get All Locations"></p-button>
+<!-- <ul>
+  <li *ngFor="let item of locations$ | async">{{ item.address }}</li>
+</ul> -->
+
+<div *ngIf="locations$ | async as locations; else loading">
+  <!-- <h3>Data from API:</h3>
+  <pre>{{ locations | json }}</pre> -->
+
+  <p-table [value]="locations" [tableStyle]="{ 'min-width': '50rem' }">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>ID</th>
+        <th>Address</th>
+        <th>price</th>
+        <th>description</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-locations>
+      <tr>
+        <td>{{ locations.id }}</td>
+        <td>{{ locations.address }}</td>
+        <td>{{ locations.price }}</td>
+        <td>{{ locations.description }}</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
+<ng-template #loading>
+  <p>Loading...</p>
+</ng-template>

@@ -1,0 +1,125 @@
+{
+  "locations" :[
+    {
+      "id": 1,
+      "address": "123 Maple Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zip_code": "62701",
+      "price": 250000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "square_footage": 1800,
+      "description": "A charming 3 bedroom, 2 bathroom home in the heart of Springfield."
+    },
+    {
+      "id": 2,
+      "address": "456 Oak Avenue",
+      "city": "Metropolis",
+      "state": "NY",
+      "zip_code": "10001",
+      "price": 450000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "square_footage": 2200,
+      "description": "Spacious 4 bedroom home with modern amenities and a large backyard."
+    },
+    {
+      "id": 3,
+      "address": "789 Pine Road",
+      "city": "Smallville",
+      "state": "KS",
+      "zip_code": "66002",
+      "price": 300000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "square_footage": 2000,
+      "description": "Beautiful ranch-style home with open floor plan and updated kitchen."
+    },
+    {
+      "id": 4,
+      "address": "101 Elm Street",
+      "city": "Gotham",
+      "state": "NJ",
+      "zip_code": "07001",
+      "price": 350000,
+      "bedrooms": 4,
+      "bathrooms": 2.5,
+      "square_footage": 2400,
+      "description": "4 bedroom home with finished basement and fenced-in yard."
+    },
+    {
+      "id": 5,
+      "address": "202 Cedar Lane",
+      "city": "Star City",
+      "state": "CA",
+      "zip_code": "90001",
+      "price": 500000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "square_footage": 3000,
+      "description": "Luxurious 5 bedroom home with pool and outdoor entertaining area."
+    },
+    {
+      "id": 6,
+      "address": "303 Birch Boulevard",
+      "city": "Central City",
+      "state": "CO",
+      "zip_code": "80427",
+      "price": 275000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "square_footage": 1900,
+      "description": "Cozy 3 bedroom home with mountain views and modern finishes."
+    },
+    {
+      "id": 7,
+      "address": "404 Willow Way",
+      "city": "Emerald City",
+      "state": "OR",
+      "zip_code": "97005",
+      "price": 325000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "square_footage": 2100,
+      "description": "Family-friendly 4 bedroom home with large playroom and garden."
+    },
+    {
+      "id": 8,
+      "address": "505 Redwood Drive",
+      "city": "Rivendell",
+      "state": "WA",
+      "zip_code": "98052",
+      "price": 400000,
+      "bedrooms": 4,
+      "bathrooms": 2.5,
+      "square_footage": 2300,
+      "description": "Elegant 4 bedroom home with vaulted ceilings and designer kitchen."
+    },
+    {
+      "id": 9,
+      "address": "606 Spruce Street",
+      "city": "Atlantis",
+      "state": "FL",
+      "zip_code": "33462",
+      "price": 275000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "square_footage": 1750,
+      "description": "Modern 3 bedroom home with open concept living and beautiful landscaping."
+    },
+    {
+      "id": 10,
+      "address": "707 Cypress Court",
+      "city": "El Dorado",
+      "state": "TX",
+      "zip_code": "76936",
+      "price": 320000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "square_footage": 2200,
+      "description": "4 bedroom home with spacious layout, perfect for entertaining."
+    }
+  ]
+  
+}
